@@ -1,0 +1,1 @@
+GET http://localhost:5000/jsonwebserver/results?name=kyll&discount=true HTTP/1.1

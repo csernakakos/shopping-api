@@ -1,0 +1,30 @@
+.card {
+    background: #fff;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 50%, 0.2);
+    box-shadow: 0 1px 3px 0 hsla(0, 0%, 50%, 0.2);
+    padding: 2rem;
+    margin: 14px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50rem;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px 3px hsla(0, 0%, 50%, 0.2);
+}
+
+.product-id {
+    color: grey;
+}
+
+.discount {
+    background: hsla(107, 93%, 50%, 0.2);
+    border: 1px solid hsla(107, 93%, 50%, 0.4);
+}
+
+.product-image {
+    max-height: 100px;
+}

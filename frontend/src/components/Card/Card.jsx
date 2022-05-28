@@ -26,7 +26,8 @@ export default function Card({items}) {
                     </p>
                 </div>
                 <div>
-                <img className="product-image" src={product.image} />
+                {/* <img className="product-image" src={product.image} /> */}
+                <img className="product-image" src="#" />
                 </div>
             </section>
         );

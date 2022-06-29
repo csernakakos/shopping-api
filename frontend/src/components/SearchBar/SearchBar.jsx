@@ -6,7 +6,7 @@ export default function SearchBar({setSearchWord, setChecked, checked}) {
         <div className="search-bar">
             <input
                 placeholder="Search for a product..."
-                onChange={(e) => setSearchWord(e.target.value)}
+                onChange={(e) => setSearchWord(e.target.value.toLowerCase())}
             />
             <label>
                 <input
